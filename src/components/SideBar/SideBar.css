@@ -40,7 +40,7 @@ ul {
 
 li {
   color: var(--gray);
-  font-family: Noto Sans JP;
+  font-family: "Noto Sans", sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
