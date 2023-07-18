@@ -2,6 +2,7 @@ import "./assets/css/main.css";
 import SideBar from "./components/SideBar/SideBar";
 import Header from "./components/Header/Header";
 import Home from "./pages/home";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {

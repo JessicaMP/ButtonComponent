@@ -1,5 +1,6 @@
-@import "fonts.css";
 @import "variables.css";
+@import "fonts.css";
+@import "icons.css";
 
 .home-container {
   display: flex;

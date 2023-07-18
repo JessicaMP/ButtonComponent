@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <div>
       <Button />
+      <span className="material-icons md-18">face</span>
     </div>
   );
 };
