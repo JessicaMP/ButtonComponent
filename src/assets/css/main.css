@@ -1,10 +1,11 @@
-@font-face {
-  font-family: "Noto Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Ubuntu Mono", monospace;
-}
+@import "fonts.css";
+@import "variables.css";
 
 .home-container {
   display: flex;
   height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }

@@ -1,0 +1,14 @@
+.header-container {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    display: block;
+    background-color: var(--gray-light);
+    min-height: 50px;
+    width: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+  }
+}
