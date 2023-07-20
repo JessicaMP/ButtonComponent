@@ -4,11 +4,26 @@
 
 @media (max-width: 768px) {
   .header-container {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: var(--gray-light);
     min-height: 50px;
     width: 100%;
     padding: 8px 16px;
     box-sizing: border-box;
+  }
+
+  .header-container button {
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+  }
+
+  .header-container button:hover {
+    background-color: #e4e4e4;
   }
 }

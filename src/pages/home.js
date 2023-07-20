@@ -2,9 +2,9 @@ import Button from "../components/Button/Button";
 
 const Home = () => {
   return (
-    <div>
+    <div className="container">
+      <h1 className="title">Buttons</h1>
       <Button />
-      <span className="material-icons md-18">face</span>
     </div>
   );
 };

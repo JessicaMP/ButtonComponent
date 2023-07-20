@@ -1,0 +1,17 @@
+.footer-container {
+  color: var(--gray-helper);
+  font-family: "Montserrat", sans-serif;
+  line-height: normal;
+  font-size: 14px;
+}
+
+.footer-container p {
+  text-align: center;
+  font-weight: 500;
+}
+
+.footer-container a {
+  font-weight: 700;
+  text-decoration-line: underline;
+  color: var(--gray-helper);
+}
