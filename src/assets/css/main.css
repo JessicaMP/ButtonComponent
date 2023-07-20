@@ -26,6 +26,19 @@
   margin: 0;
 }
 
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 28px 0;
+  gap: 45px;
+}
+
+.row-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 16px;
