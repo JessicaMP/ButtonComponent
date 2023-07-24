@@ -15,21 +15,76 @@ button {
   line-height: normal;
 }
 
-.default {
-  background-color: var(--button-gray);
-  color: var(--dark);
+.shadow {
   box-shadow: 0 2px 3px 0 rgba(51, 51, 51, 0.2);
 }
 
-.default:hover {
-  background-color: var(--gray-helper-2);
+/* Colors buttons */
+.button-default {
+  background-color: var(--default);
+  color: var(--dark);
+}
+.button-default:hover,
+.button-default.button-active {
+  background-color: var(--gray-helper-2) !important;
 }
 
-.outline {
-  border: 1px solid var(--blue);
-  color: var(--blue);
+.button-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.button-primary:hover,
+.button-primary.button-active {
+  background-color: var(--blue-dark) !important;
 }
 
-.outline:hover {
-  background-color: rgba(41, 98, 255, 0.1);
+.button-outline,
+.button-text {
+  box-shadow: none;
+}
+/* outline */
+.button-outline {
+  background-color: var(--white);
+}
+.button-default__outline {
+  color: var(--dark);
+  border: 1px solid var(--default);
+}
+/* ,
+.button-active */
+.button-default__outline:hover,
+.button-default__outline.button-active {
+  background-color: var(--gray-helper-2) !important;
+}
+
+.button-primary__outline {
+  color: var(--primary);
+  border: 1px solid var(--primary);
+}
+.button-primary__outline:hover,
+.button-primary__outline.button-active {
+  background-color: color-mix(
+    in srgb,
+    var(--primary),
+    transparent 90%
+  ) !important;
+}
+
+/* text */
+.button-text {
+  border: none;
+}
+
+label {
+  display: block;
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 12px;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.label {
+  color: var(--dark);
+}
+.label-hover {
+  color: var(--gray-helper-3);
 }
